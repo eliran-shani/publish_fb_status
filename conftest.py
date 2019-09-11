@@ -10,6 +10,11 @@ def now():
     return datetime.now().strftime("%m/%d/%Y-%H:%M:%S")
 
 
+@pytest.fixture(scope="module")
+def image_attachment():
+    return "image.jpg"
+
+
 def pytest_addoption(parser):
     parser.addoption("--driver", action="store", default="chrome", help="Type in browser type")
     parser.addoption("--url", action="store", default="https://www.facebook.com/", help="url")

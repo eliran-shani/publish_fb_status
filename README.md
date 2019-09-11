@@ -2,10 +2,10 @@
 
 #### PreRequisites
 1. Python3 ([Python/MAC] / [Python/Windows]) 
-2. *FB_USERNAME* variable key is set in your system env vars
-3. *FB_PASSWORD* variable key is set in your system env vars
+2. **FB_USERNAME** variable key is set in your system env vars
+3. **FB_PASSWORD** variable key is set in your system env vars
 4. Python Virtual Environment ([Python Virtual Environment])
-4. *ChromeDriver* installed in your Python Virtual Environment ([ChromeDriver])
+4. **ChromeDriver** installed in your Python Virtual Environment ([ChromeDriver])
 
 [Python/MAC]: https://realpython.com/installing-python/#macos-mac-os-x
 [Python/Windows]: https://realpython.com/installing-python/#windows
@@ -33,6 +33,13 @@
 * Run all tests against a specific url (default Facebook URL): <br>
 `pytest --url localhost:9090`
 
+* Run tests by marker: <br>
+`pytest -m acceptance` <br>
+`pytest -m regression` 
+
+* Run a specific test: <br>
+`pytest tests/test_acceptance_publish_status.py`
+
 * Optional Facebook test user: <br>
 `username: test_mkwaaug_user@tfbnw.net` / `pass: 1qaz@WSX`
 
@@ -44,6 +51,7 @@
     ├── tests                               # All related tests
     ├── .gitignore                          # Github ignore file
     ├── conftest                            # Pytest configuration file
+    ├── pytest.ini                          # One place to register all custom markers
     ├── requirements.txt                    # Python packages required to run this project                           
     └── README.md
 
