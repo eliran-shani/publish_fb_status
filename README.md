@@ -2,10 +2,10 @@
 
 #### PreRequisites
 1. Python3 ([Python/MAC] / [Python/Windows]) 
-2. FB_USERNAME variable key is set in your system env vars
-3. FB_PASSWORD variable key is set in your system env vars
+2. *FB_USERNAME* variable key is set in your system env vars
+3. *FB_PASSWORD* variable key is set in your system env vars
 4. Python Virtual Environment ([Python Virtual Environment])
-4. ChromeDriver installed in your Python Virtual Environment ([ChromeDriver])
+4. *ChromeDriver* installed in your Python Virtual Environment ([ChromeDriver])
 
 [Python/MAC]: https://realpython.com/installing-python/#macos-mac-os-x
 [Python/Windows]: https://realpython.com/installing-python/#windows
@@ -13,8 +13,14 @@
 [ChromeDriver]: https://chromedriver.chromium.org/getting-started
 
 #### Setup
-1. Clone the repo automation_exercise `git clone https://github.com/eliran-shani/automation_exercise.git`
+1. Clone the repo automation_exercise <br>
+`git clone https://github.com/eliran-shani/automation_exercise.git`
+2. Create & Activate Virtual Environment <br>
+`python3 -m venv .venv`  <br>
+`source ./venv/bin/activate` <br>
 2. Install requirements.txt `pip3 install -r requirements.txt`
+3. Inject ChromeDriver binary into `/.venv/bin` folder
+
 
 #### Usage
 
