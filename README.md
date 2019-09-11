@@ -40,7 +40,7 @@
 * Run a specific test: <br>
 `pytest tests/test_acceptance_publish_status.py`
 
-* Optional Facebook test user: <br>
+*Optional: Facebook test user: <br>
 `username: test_mkwaaug_user@tfbnw.net` / `pass: 1qaz@WSX`
 
 #### Folder structure convention
