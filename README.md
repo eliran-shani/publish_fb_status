@@ -30,6 +30,9 @@
 * Run all tests using a specific browser (only chrome supported at the moment: <br>
 `pytest --browser chrome`
 
+* Run all tests against a specific url (default Facebook URL): <br>
+`pytest --url localhost:9090`
+
 * Optional Facebook test user: <br>
 `username: test_mkwaaug_user@tfbnw.net` / `pass: 1qaz@WSX`
 
