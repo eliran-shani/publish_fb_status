@@ -1,4 +1,4 @@
-# Publish Facebook Status - Coding Exercise
+# Publish Facebook Status
 
 #### PreRequisites
 1. Python3 ([Python/MAC] / [Python/Windows]) 
